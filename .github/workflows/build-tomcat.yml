@@ -27,6 +27,7 @@ jobs:
       uses: actions/setup-java@v3
       with:
         java-version: '21'          # The JDK version to make available on the path
+        distribution: 'temurin'  # or 'zulu', depending on your preference
         java-package: jdk         # (jre, jdk, or jdk+fx) - defaults to jdk
         architecture: x64         # (x64 or x86) - defaults to x64
 
